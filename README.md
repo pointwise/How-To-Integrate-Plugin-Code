@@ -59,9 +59,15 @@ In the next sections, `XxxxName` refers to the plugin project's full, decorated
 name (i.e. `CaeUnsName`).
 
 #### Compiling on Unix and MacOSX
-The `make` utility is used to compile the plugin project on linux and MacOSX
-platforms:
-* `make XxxxName-dr`
+The `make` utility is used to compile the plugin project on linux and MacOSX 
+platforms. For details, click on the **4. Build the CAE plugin** link in the 
+[How to Create a CAE Plugin][SDKbuild] section.
+
+To compile for both debug and relase on macOSX:
+* `make machine=macosx XxxxName-dr`
+
+To compile for both debug and relase on linux:
+* `make machine=linux_x86_64 XxxxName-dr`
 
 #### Compiling on Windows
 Microsoft Visual Studio (VS) is used to compile the plugin project on the 
