@@ -34,17 +34,17 @@ the plugin repository page to determine the appropriate options. You can run
 In the following examples, `Name` is a place-holder for the actual plugin 
 project name.
 
-### Example: C-language, unstructured CAE exporter plugin project
+#### Example: C-language, unstructured CAE exporter plugin project
 The following example creates a plugin project named `CaeUnsName`.
 * On mac/unix: `./mkplugin -c -caeu Name`
 * On windows: `mkplugin -c -caeu Name`
 
-### Example: C++-language, structured CAE exporter plugin project
+#### Example: C++-language, structured CAE exporter plugin project
 The following example creates a plugin project named `CaeStrName`.
 * On mac/unix: `./mkplugin -cpp -caes Name`
 * On windows: `mkplugin -cpp -caes Name`
 
-### Example: C-language, grid importer plugin project
+#### Example: C-language, grid importer plugin project
 The following example creates a plugin project named `GrdpName`.
 * On mac/unix: `./mkplugin -c -grdp Name`
 * On windows: `mkplugin -c -grdp Name`
@@ -58,12 +58,12 @@ As long as it builds correctly here, we are ready for the next step.
 In the next sections, `XxxxName` refers to the plugin project's full, decorated 
 name (i.e. `CaeUnsName`).
 
-### Compiling on Unix and MacOSX
+#### Compiling on Unix and MacOSX
 The `make` utility is used to compile the plugin project on linux and MacOSX
 platforms:
 * `make XxxxName-dr`
 
-### Compiling on Windows
+#### Compiling on Windows
 Microsoft Visual Studio (VS) is used to compile the plugin project on the 
 Windows platform. Before a project can be built for the first time, it must be 
 added to the plugin SDK's VS solution:
@@ -80,7 +80,7 @@ Now that the plugin project is part of the solution, it can be compiled:
 * Right-click on the *XxxxName* project
 * Choose *Build* in the popup menu
 
-### Integrate the github Plugin Source Files into the Plugin Project
+## Integrate the github Plugin Source Files into the Plugin Project
 Once the `XxxxName` project is created and builds correctly as explained above, 
 you can integrate the source code from this repository into your project by 
 copying the repository files into the `PluginSDK\src\plugins\XxxxName` directory.
@@ -92,7 +92,7 @@ that is functionally equivalent to the plugin distributed with Pointwise.
 The `XxxxName` plugin project is now ready for you to make your desired code 
 changes.
 
-### Closing Thoughts
+## Closing Thoughts
 Even though this new plugin is functionally equivalent, its group and user ids
 are different. Because of this, Pointwise considers the `XxxxName` plugin 
 created by the SDK as a different CAE solver.
