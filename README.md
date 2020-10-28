@@ -117,7 +117,7 @@ To add the custom link libraries, goto the *Solution Explorer* tab and:
   * Select the `x64` *Platform* (Pointwise only supports 64-bit plugins)
   * Select the appropriate *Configuration*
   * Navigate to *Linker &gt; General* and add library directories to 
-    *Addition Libaray Directories* as needed.
+    *Additional Libaray Directories* as needed.
   * Navigate to *Linker &gt; Input* and add *Additional Dependencies* library 
     file names (without path) as needed.
   * Repeat as needed for each *Configuration*
