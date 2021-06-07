@@ -29,7 +29,9 @@ The integration process, detailed below, is simple:
 You must first create a plugin project using the `mkplugin` SDK script. This 
 script is run from your machine's command shell and requires 2 options. Consult 
 the plugin repository page to determine the appropriate options. You can run 
-`mkplugin` with the `-h` option to see the full script usage.
+`mkplugin` with the `-h` option to see the full script usage. `mkplugin` is a Tcl 
+script. You must have `tclsh` to run it. See the 
+[tclsh Information section][TclshInfo] for more details.
 
 In the following examples, `Name` is a place-holder for the actual plugin 
 project name.
@@ -153,3 +155,4 @@ them as appropriate.
 [SDKdocs]: http://www.pointwise.com/plugins
 [SDKsite.H]: http://www.pointwise.com/plugins/html/d6/d89/site_8h.html
 [SDKbuild]: http://www.pointwise.com/plugins/html/index.html#how_to_create_a_cae_plugin
+[TclshInfo]: http://www.pointwise.com/plugins/html/dd/d8c/create_cae_plugin_project.html
