@@ -1,4 +1,5 @@
 # How To Integrate Plugin Code
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
 
 If you want to build and possibly edit one of the plugins from the Pointwise 
 repository, you must first integrate the source code from this repository into 
@@ -156,3 +157,9 @@ them as appropriate.
 [SDKsite.H]: http://www.pointwise.com/plugins/html/d6/d89/site_8h.html
 [SDKbuild]: http://www.pointwise.com/plugins/html/index.html#how_to_create_a_cae_plugin
 [TclshInfo]: http://www.pointwise.com/plugins/html/dd/d8c/create_cae_plugin_project.html
+
+
+## Disclaimer
+This file is licensed under the Cadence Public License Version 1.0 (the "License"), a copy of which is found in the LICENSE file, and is distributed "AS IS." 
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CADENCE DISCLAIMS ALL WARRANTIES AND IN NO EVENT SHALL BE LIABLE TO ANY PARTY FOR ANY DAMAGES ARISING OUT OF OR RELATING TO USE OF THIS FILE. 
+Please see the License for the full text of applicable terms.
